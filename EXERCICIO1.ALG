@@ -1,16 +1,20 @@
-Algoritmo "exercicio2"
+Algoritmo "exercicio1"
 
 Var
 
-   bytes, kb : real
-
+   n1, n2, n3, media : real
+   
 Inicio
 
-   escreva("Digite a quantidade de bytes: ")
-   leia(bytes)
-   
-   kb <- bytes / 1024
-   
-   escreval("Quantidade de KBs sao: ", kb)
-
+    escreva("Digite a primeira nota: ")
+    leia(n1)
+    escreva("Digite a segunda nota: ")
+    leia(n2)
+    escreva("Digite a terceira nota: ")
+    leia(n3)
+    
+    media <- (n1 + n2 + n3) / 3
+    
+    escreval("A media das notas é: ", media)
+    
 Fimalgoritmo
