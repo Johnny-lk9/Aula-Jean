@@ -15,6 +15,6 @@ Inicio
     
     media <- (n1 + n2 + n3) / 3
     
-    escreval("A media das notas é: ", media)
+    escreval("A media das notas e: ", media)
     
 Fimalgoritmo
